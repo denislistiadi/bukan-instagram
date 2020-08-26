@@ -27,5 +27,5 @@ function hideDashboard() {
 }
 
 function gotoDashboard() {
-    window.location.replace("http://localhost:9000/feed.html");
+    window.location.replace("https://bukan-instagram.vercel.app/dashboard.html");
 }
