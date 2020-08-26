@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bukan Instagram - Dashboard Feed</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/dashboard.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/profile.jpg" alt="profile">
+                    </div>
+                    <div class="profile-user-settings">
+                        <h1 class="profile-user-name" id="emailid">denislistiadi24@gmail.com</h1>
+                        <button class="btn profile-sign-out-btn">Sign Out</button>
+                        <button class="btn profile-setting-btn" aria-label="profile settings">
+                            <i class="fas fa-cog" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class="profile-stats">
+                        <ul>
+                            <li><span class="profile-stat-count">12</span> posts</li>
+                            <li><span class="profile-stat-count">7.540</span> followers</li>
+                            <li><span class="profile-stat-count">314</span> following</li>
+                        </ul>
+                    </div>
+                    <div class="profile-bio">
+                        <p><span class="profile-real-name" id="nama-lengkap">Denis Listiadi</span> DreamBig, StartSmall, and ActNow</p>
+                        <p><span class="profile-website"><small><a id="alamat-website" href="#">https://denislistiadi.com</a></small></span></p>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="gallery"></div>
+                <div class="loader"></div>
+            </main>
+        </div>
+        <script type="application/javascript" src="https://api.google.com/js/api:client.js"></script>
+        <script type="application/javascript" src="js/dashboard.js"></script>
+    </body>
+</html>
